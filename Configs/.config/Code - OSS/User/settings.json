@@ -18,6 +18,8 @@
     "window.customTitleBarVisibility": "auto",
     "window.menuBarVisibility": "toggle",
     "editor.minimap.enabled": false,
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "workbench.startupEditor": "none"
   }
   
