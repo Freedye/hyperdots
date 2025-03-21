@@ -17,14 +17,8 @@ fastfetch --config hyde/*.jsonc
   },
   "modules": [
     {
-      "type": "command",
-      "key": "  ",
-      "keyColor": "blue",
-      "text": "splash=$(hyprctl splash);echo $splash"
-    },
-    {
       "type": "custom",
-      "format": "┌──────────────────────────────────────────┐"
+      "format": "┌────────────────────────────────────────────────┐"
     },
     {
       "type": "chassis",
@@ -67,7 +61,7 @@ fastfetch --config hyde/*.jsonc
     },
     {
       "type": "custom",
-      "format": "└──────────────────────────────────────────┘"
+      "format": "└────────────────────────────────────────────────┘"
     },
     "break",
     {
@@ -77,7 +71,7 @@ fastfetch --config hyde/*.jsonc
     },
     {
       "type": "custom",
-      "format": "┌──────────────────────────────────────────┐"
+      "format": "┌────────────────────────────────────────────────┐"
     },
     {
       "type": "cpu",
@@ -115,7 +109,7 @@ fastfetch --config hyde/*.jsonc
     },
     {
       "type": "custom",
-      "format": "└──────────────────────────────────────────┘"
+      "format": "└────────────────────────────────────────────────┘"
     },
     {
       "type": "colors",
